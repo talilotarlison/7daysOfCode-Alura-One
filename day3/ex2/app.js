@@ -10,7 +10,7 @@
 
 let escolha = prompt("Qual suas linguagens favoritas \n [0] Para parar!");
 
-let linguagens = []
+let linguagens = [];
 
 while (parseInt(escolha) != 0) {
      linguagens.push(escolha);

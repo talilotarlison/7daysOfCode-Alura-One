@@ -13,15 +13,15 @@ let cidade = prompt("Qual sua cidade favoritas \n Roma ou Paris!");
 
 if (cidade.toLowerCase() === "roma") {
      // mostre a foto do “Coliseu”
-     alert("Coliseu")
+     alert("Coliseu");
 }
 else if (cidade.toLowerCase() === "paris") {
      // mostre a foto do “Torre Eiffel”
-     alert("Torre Eiffel")
+     alert("Torre Eiffel");
 }
 else {
      // dê a resposta “Você não digitou nenhuma cidade válida”
-     alert("Você não digitou nenhuma cidade válida")
+     alert("Você não digitou nenhuma cidade válida");
 }
 
 let idade = 0;

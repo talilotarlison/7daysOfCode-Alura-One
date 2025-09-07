@@ -33,12 +33,11 @@ O curso é dividido em 7 dias, e cada dia aborda um novo conceito ou prática re
 - Alteração de elementos da página HTML através do JS.
 
 ### 🔹 **Dia 6: Eventos no JavaScript**
-- Como manipular eventos como `click`, `keydown`, entre outros.
+- Como manipular eventos como `click`, `keydown`, `alert`, `confirm`, `prompt` entre outros.
 - Adição de eventos dinâmicos.
 
 ### 🔹 **Dia 7: Introdução ao Local Storage**
-- Armazenamento local no navegador com o `localStorage`.
-- Como armazenar e recuperar dados entre sessões.
+-  Uso de funções com e sem parametro , estrutura de dados com array, objetos.
 
 ## 📂 Estrutura do Repositório
 

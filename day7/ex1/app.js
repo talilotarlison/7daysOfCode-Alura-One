@@ -1,3 +1,10 @@
+const operador = {
+     soma: "somar",
+     subtracao: "subtrair",
+     multiplicacao: "multiplicar",
+     divisao: "dividir"
+}
+
 // pegar dados de entrada usuario
 function getDados(operacao) {
      let numero1 = prompt(`Digite o primeiro numero para ${operacao}.`);
@@ -10,7 +17,7 @@ function getDados(operacao) {
 
 //somar
 function somarNumeros() {
-     let numeros = getDados("somar");
+     let numeros = getDados(operador.soma);
      const { numero1, numero2 } = numeros;
      let soma = parseFloat(numero1) + parseFloat(numero2);
      alert(`Soma: ${soma}`);
@@ -18,7 +25,7 @@ function somarNumeros() {
 
 // subrtrair 
 function subtrairNumeros() {
-     let numeros = getDados("subtrair");
+     let numeros = getDados(operador.subtracao);
      const { numero1, numero2 } = numeros;
      let subrtrair = parseFloat(numero1) - parseFloat(numero2);
      alert(`Soma: ${subrtrair}`);
@@ -26,7 +33,7 @@ function subtrairNumeros() {
 
 // multiplicar
 function multiplicarNumeros() {
-     let numeros = getDados("multiplicar");
+     let numeros = getDados(operador.multiplicacao);
      const { numero1, numero2 } = numeros;
      let multiplicar = parseFloat(numero1) * parseFloat(numero2);
      alert(`Soma: ${multiplicar}`);
@@ -34,7 +41,7 @@ function multiplicarNumeros() {
 
 // dividir
 function dividirNumeros() {
-     let numeros = getDados("dividir");
+     let numeros = getDados(operador.divisao);
      const { numero1, numero2 } = numeros;
      let dividir = parseFloat(numero1) / parseFloat(numero2);
      alert(`Soma: ${dividir}`);
