@@ -36,7 +36,7 @@ O curso é dividido em 7 dias, e cada dia aborda um novo conceito ou prática re
 - Como manipular eventos como `click`, `keydown`, `alert`, `confirm`, `prompt` entre outros.
 - Adição de eventos dinâmicos.
 
-### 🔹 **Dia 7: Introdução ao Local Storage**
+### 🔹 **Dia 7: Introdução a Funções e estrutura de dados**
 -  Uso de funções com e sem parametro , estrutura de dados com array, objetos.
 
 ## 📂 Estrutura do Repositório
