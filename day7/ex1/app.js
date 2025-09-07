@@ -28,7 +28,7 @@ function subtrairNumeros() {
      let numeros = getDados(operador.subtracao);
      const { numero1, numero2 } = numeros;
      let subrtrair = parseFloat(numero1) - parseFloat(numero2);
-     alert(`Soma: ${subrtrair}`);
+     alert(`Subtração: ${subrtrair}`);
 }
 
 // multiplicar
@@ -36,7 +36,7 @@ function multiplicarNumeros() {
      let numeros = getDados(operador.multiplicacao);
      const { numero1, numero2 } = numeros;
      let multiplicar = parseFloat(numero1) * parseFloat(numero2);
-     alert(`Soma: ${multiplicar}`);
+     alert(`Multiplicação: ${multiplicar}`);
 }
 
 // dividir
@@ -44,7 +44,7 @@ function dividirNumeros() {
      let numeros = getDados(operador.divisao);
      const { numero1, numero2 } = numeros;
      let dividir = parseFloat(numero1) / parseFloat(numero2);
-     alert(`Soma: ${dividir}`);
+     alert(`Divisão: ${dividir}`);
 }
 
 // menu de opções
